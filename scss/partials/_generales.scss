@@ -39,30 +39,3 @@ img {
 .grid-display {
     display: grid;
 }
-
-
-.card {
-    width: 250px;
-    flex-direction: column;
-    background-color: red;
-    margin: 0 auto;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    img{
-        display: flex;
-        width: 200px;
-    }
-    p {
-        display: flex;
-        padding: 2rem;
-    }
-
-}
-
-@media (min-width: 550px) {
-    .container-cards {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-    }
-}

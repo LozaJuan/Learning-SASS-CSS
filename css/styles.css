@@ -33,22 +33,7 @@ img {
   display: grid;
 }
 
-.card {
-  width: 250px;
-  flex-direction: column;
-  background-color: red;
-  margin: 0 auto;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-.card img {
-  display: flex;
-  width: 200px;
-}
-.card p {
-  display: flex;
-  padding: 2rem;
-}
+
 
 @media (min-width: 550px) {
   .container-cards {
@@ -135,7 +120,7 @@ footer .title-footer {
 }
 
 .whatsapp {
-  background-color: yellow;
+  background-color: rgb(27, 27, 27);
   width: 40px;
   bottom: 2rem;
   right: 2rem;
