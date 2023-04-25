@@ -25,23 +25,6 @@ img {
   max-width: 100%;
 }
 
-.text-center {
-  text-align: center;
-}
-
-.grid-display {
-  display: grid;
-}
-
-
-
-@media (min-width: 550px) {
-  .container-cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-}
 header {
   background-color: aqua;
   display: flex;
@@ -120,7 +103,7 @@ footer .title-footer {
 }
 
 .whatsapp {
-  background-color: rgb(27, 27, 27);
+  background-color: yellow;
   width: 40px;
   bottom: 2rem;
   right: 2rem;
