@@ -132,4 +132,25 @@ img {
   width: 70px;
 }
 
+@media (min-width: 400px) {
+  .card {
+    background-color: red;
+    width: 200px;
+    padding-bottom: 100px;
+  }
+  img {
+    width: 150px;
+  }
+}
+@media (min-width: 700px) {
+  .container-cards {
+    width: 700px;
+  }
+}
+body {
+  background-image: url(../../img/background.jpg);
+  background-attachment: fixed;
+  background-size: contain;
+}
+
 /*# sourceMappingURL=styles.css.map */
